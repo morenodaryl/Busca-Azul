@@ -1,0 +1,47 @@
+body{
+	font-family: verdana;
+	margin: 0 auto;
+	text-align: center;
+}
+
+h1{
+	color:#E45814;
+}
+
+.mensaje, h2{
+	font-size: 0.7em;
+	font-style: normal;
+}
+
+.centro{
+	background-color: transparent;
+	border-radius: 50%;
+	box-shadow: -4px 4px 2px black;
+	height: 400px;
+	left: 50%;
+	margin-left:-210px;
+	margin-top: -210px;
+	padding: 10px;
+	position: absolute;
+	top:50%;
+	width: 400px;
+}
+
+.caja{
+	background-color: #0CAFED;
+	border-radius: 50%;
+	display: inline-block;
+	height: 80px;
+	transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	width: 80px;
+}
+
+.caja:hover{
+	background-color: #2BBDF4;
+	cursor: pointer;
+	transform: scale(1.1);
+}
